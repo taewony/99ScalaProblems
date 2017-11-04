@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.4.0-RC1:component from component compiler for Scala 0.4.0-RC1[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.4.0-RC1:component from component compiler for Scala 0.4.0-RC1[0m
