@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(Test1, com.novocode.junit.JUnitFingerprint@32b4252e, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Test1, com.novocode.junit.JUnitFingerprint@35acc5d3, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0minfo[0m] [0mPassed: Total 4, Failed 0, Errors 0, Passed 4[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	Test1[0m
