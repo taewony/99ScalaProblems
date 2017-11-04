@@ -7,4 +7,10 @@ class Test1 {
   @Test def t1(): Unit = {
     assertEquals(Main.P01(x), 5) //P01: Find the last element of a list 
   }
+
+  @Test def t2(): Unit = {
+    assertEquals(Main.P02(x), 4) //P02: Find the last but one element of a list 
+  }
+
+
 }

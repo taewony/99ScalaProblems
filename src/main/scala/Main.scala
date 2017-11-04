@@ -14,4 +14,13 @@ object Main {
     }
   }
 
+  /**
+  P02: Find the last but one element of a list 
+  */
+  def P02[T] (xs: List[T]): T = {
+    xs.size match {
+      case 2 => xs.head
+      case _ => last(xs.tail)
+    }
+  }
 }
