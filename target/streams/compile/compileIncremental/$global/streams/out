@@ -1,20 +1,20 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
-[0m[[0mdebug[0m] [0m[naha] 	removed:Set(E:\Agents\study\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(E:\Agents\study\target\scala-0.4\classes\Main$.class, E:\Agents\study\target\scala-0.4\classes\Main.class)[0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(E:\Agents\study\src\main\scala\Main.scala, E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set(E:\Agents\study\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(E:\Agents\study\src\main\scala\Main.scala, E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(E:\Agents\study\src\main\scala\Main.scala, E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to E:\Agents\99ScalaProblems\target\scala-0.4\classes...[0m
 [0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.4.0-RC1:component from component compiler for Scala 0.4.0-RC1[0m
 [0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.4.0-RC1:component from component compiler for Scala 0.4.0-RC1[0m
@@ -23,21 +23,7 @@
 [0m[[0mdebug[0m] [0m	d:\java\jre\lib\resources.jar;d:\java\jre\lib\rt.jar;d:\java\jre\lib\sunrsasign.jar;d:\java\jre\lib\jsse.jar;d:\java\jre\lib\jce.jar;d:\java\jre\lib\charsets.jar;d:\java\jre\lib\jfr.jar;d:\java\jre\classes;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\scala-library\jars\scala-library-0.4.0-RC1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	E:\Agents\99ScalaProblems\target\scala-0.4\classes;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\dotty-library_0.4\jars\dotty-library_0.4-0.4.0-RC1.jar;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\dotty_0.4\jars\dotty_0.4-0.4.0-RC1.jar;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\dotty-compiler_0.4\jars\dotty-compiler_0.4-0.4.0-RC1.jar;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\dotty-interfaces\jars\dotty-interfaces-0.4.0-RC1.jar;C:\Users\Taewony\.ivy2\cache\ch.epfl.lamp\dotty-library_0.4\jars\dotty-library_0.4-0.4.0-RC1.jar;C:\Users\Taewony\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.3.jar;C:\Users\Taewony\.ivy2\cache\org.scala-lang.modules\scala-asm\bundles\scala-asm-5.2.0-scala-2.jar;C:\Users\Taewony\.ivy2\cache\com.typesafe.sbt\sbt-interface\jars\sbt-interface-0.13.15.jar;C:\Users\Taewony\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 2.891844334 s[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating E:\Agents\99ScalaProblems\src\main\scala\Main.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from E:\Agents\99ScalaProblems\src\main\scala\Main.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(E:\Agents\99ScalaProblems\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The E:\Agents\99ScalaProblems\src\main\scala\Main.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, asInstanceOf, synchronized, main, notifyAll, isInstanceOf, <init>, ==, clone, Main, toString, msg, !=, getClass, $isInstanceOf$, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating E:\Agents\study\src\main\scala\Main.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from E:\Agents\study\src\main\scala\Main.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(E:\Agents\study\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(E:\Agents\study\src\main\scala\Main.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The E:\Agents\study\src\main\scala\Main.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, asInstanceOf, synchronized, main, notifyAll, isInstanceOf, <init>, ==, clone, Main, toString, msg, !=, getClass, $isInstanceOf$, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.904767252 s[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m

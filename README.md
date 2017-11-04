@@ -1,4 +1,4 @@
-## sbt project cross-compiled with Dotty and Scala 2
+## Scala 99 problems project cross-compiled with Dotty and Scala 2
 
 ### Usage
 

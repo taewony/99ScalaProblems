@@ -1,10 +1,17 @@
 object Main {
 
   def main(args: Array[String]): Unit = {
-    println("Hello world!")
-    println(msg)
+    println("please run -> sbt test")
   }
 
-  def msg = "I was compiled by dotty :)"
+  /**
+  P01: Find the last element of a list 
+  */
+  def P01[T] (xs: List[T]): T = {
+    xs.size match {
+      case 1 => xs.head
+      case _ => P01(xs.tail)
+    }
+  }
 
 }
