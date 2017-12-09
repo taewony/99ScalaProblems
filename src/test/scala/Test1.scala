@@ -40,4 +40,18 @@ class Test1 {
       compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
     )
   }
+
+  @Test def t9(): Unit = {
+    assertEquals(
+      List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)),
+      pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    )
+  }
+
+  @Test def t10(): Unit = {
+    assertEquals(
+      List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e)),
+      encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    )
+  }
 }

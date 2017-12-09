@@ -52,4 +52,24 @@ object Main {
       else r
     }
   }
+
+  // P09 - Pack consecutive duplicates of list elements into sublists.
+  def pack[T](list: List[T]): List[List[T]] = {
+    if (list.isEmpty) List(List())
+    else {
+      val (packed, next) = list span { _ == list.head }
+      if (next == Nil) List(packed)
+      else packed :: pack(next)
+    }
+  }
+
+  // P10 - Run-length encoding of a list.
+  def encode[T](list: List[T]): List[(Int, T)] = {
+    if (list.isEmpty) List()
+    else {
+      val (packed, next) = list span { _ == list.head }
+      if (next == Nil) List((packed.size, packed.head))
+      else (packed.size, packed.head) :: encode(next)
+    }
+  }
 }

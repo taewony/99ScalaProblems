@@ -1,1 +1,1 @@
-[0m[[31merror[0m] [0mTest [33mTest1[0m.[31mt8[0m failed: expected:<List('a, 'b, 'c, 'a, 'd, 'e)> but was:<List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)>, took 0.001 sec[0m
+[0m[[31merror[0m] [0mTest [33mTest1[0m.[31mt10[0m failed: expected:<List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))> but was:<List((1,'a), (1,'a), (1,'a), (1,'a), (1,'b), (1,'c), (1,'c), (1,'a), (1,'a), (1,'d), (1,'e), (1,'e), (1,'e), (1,'e))>, took 0.002 sec[0m
