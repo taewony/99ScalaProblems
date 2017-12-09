@@ -9,16 +9,16 @@
 		extra-sbtVersion="0.13"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171104183726"/>
+		date="20171209191816"/>
 	<dependencies>
 		<module organisation="ch.epfl.lamp" name="sbt-dotty">
-			<revision name="0.1.6" status="release" pubdate="20171017010401" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+			<revision name="0.1.7" status="release" pubdate="20171030173147" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lampepfl/dotty" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="BSD New" url="https://github.com/lampepfl/dotty/blob/master/LICENSE.md"/>
-				<metadata-artifact status="no" details="" size="3161" time="0" location="C:\Users\Taewony\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-dotty\ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/sbt-dotty_2.10_0.13/0.1.6/sbt-dotty-0.1.6.pom"/>
-				<caller organisation="default" name="root-99scalaproblems-build" conf="test, compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<metadata-artifact status="no" details="" size="3161" time="0" location="C:\Users\Taewony\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-dotty\ivy-0.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/epfl/lamp/sbt-dotty_2.10_0.13/0.1.7/sbt-dotty-0.1.7.pom"/>
+				<caller organisation="default" name="root-99scalaproblems-build" conf="test, compile, runtime" rev="0.1.7" rev-constraint-default="0.1.7" rev-constraint-dynamic="0.1.7" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-dotty" type="jar" ext="jar" status="no" details="" size="64698" time="0" location="C:\Users\Taewony\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-dotty\jars\sbt-dotty-0.1.6.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/sbt-dotty_2.10_0.13/0.1.6/sbt-dotty-0.1.6.jar"/>
+					<artifact name="sbt-dotty" type="jar" ext="jar" status="no" details="" size="65304" time="0" location="C:\Users\Taewony\.ivy2\cache\scala_2.10\sbt_0.13\ch.epfl.lamp\sbt-dotty\jars\sbt-dotty-0.1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/epfl/lamp/sbt-dotty_2.10_0.13/0.1.7/sbt-dotty-0.1.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -27,7 +27,7 @@
 			<revision name="2.8.8" status="release" pubdate="20170405122958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\Taewony\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.pom"/>
-				<caller organisation="ch.epfl.lamp" name="sbt-dotty" conf="default, compile, runtime, master" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1.6"/>
+				<caller organisation="ch.epfl.lamp" name="sbt-dotty" conf="default, compile, runtime, master" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1.7"/>
 				<artifacts>
 					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1238590" time="0" location="C:\Users\Taewony\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.8.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar"/>
