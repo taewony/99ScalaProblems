@@ -45,5 +45,11 @@ object Main {
     helper(list, Nil)
   }
 
-  
+  // P08 - flatten a nested list structure
+  def compress[T](list: List[T]): List[T] = {
+    list.foldRight(List[T]()) { (h, r) =>
+      if (r.isEmpty || r.head != h) h :: r
+      else r
+    }
+  }
 }
