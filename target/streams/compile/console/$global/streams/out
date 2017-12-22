@@ -1,8 +1,8 @@
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.5.0-RC1:component from component compiler for Scala 0.5.0-RC1[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-1 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0mGetting ch.epfl.lamp:dotty-sbt-bridge:0.5.0-RC1:component from component compiler for Scala 0.5.0-RC1[0m
-[0m[[31merror[0m] [0m(run-main-1) java.lang.NullPointerException[0m
+[0m[[31merror[0m] [0m(run-main-0) java.lang.NullPointerException[0m
 java.lang.NullPointerException
 	at dotty.tools.repl.terminal.Terminal$.initialConfig$1(Terminal.scala:302)
 	at dotty.tools.repl.terminal.Terminal$.readLine(Terminal.scala:313)
@@ -23,7 +23,7 @@ java.lang.NullPointerException
 	at sbt.Logger$$anon$4.apply(Logger.scala:84)
 	at sbt.TrapExit$App.run(TrapExit.scala:248)
 	at java.lang.Thread.run(Unknown Source)
-[0m[[0mdebug[0m] [0m	Thread run-main-1 exited.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 java.lang.RuntimeException: Nonzero exit code: 1

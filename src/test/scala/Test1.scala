@@ -4,26 +4,30 @@ import org.junit.Assert._
 class Test1 {
   import Main._
 
-  val x = List(1,2,3,4,5)
+  val x = List(1,6,4,3,5,2)
+
+  @Test def t0(): Unit = {
+    assertEquals(List(1,2,3,4,5,6), insertionSort(x))
+  }
 
   @Test def t1(): Unit = {
-    assertEquals(last(x), 5) //P01: Find the last element of a list 
+    assertEquals(2, last(x)) //P01: Find the last element of a list 
   }
 
   @Test def t2(): Unit = {
-    assertEquals(penultimate(x), 4) //P02: Find the last but one element of a list 
+    assertEquals(5, penultimate(x)) //P02: Find the last but one element of a list 
   }
 
   @Test def t3(): Unit = {
-    assertEquals(nth(2, x), 3) //P03: Find the Kth element of a list.
+    assertEquals(4, nth(2, x)) //P03: Find the Kth element of a list.
   }
 
   @Test def t4(): Unit = {
-    assertEquals(length(x), 5) //P04: Find the number of elements of a list.
+    assertEquals(6, length(x)) //P04: Find the number of elements of a list.
   }
 
   @Test def t5(): Unit = {
-    assertEquals(reverse(x), List(5,4,3,2,1))
+    assertEquals(List(2, 5, 3, 4, 6, 1), reverse(x))
   }
 
   @Test def t6(): Unit = {
@@ -54,4 +58,19 @@ class Test1 {
       encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
     )
   }
+
+  @Test def t11(): Unit = {
+    assertEquals(
+      List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e)),
+      encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    )
+  }
+
+  @Test def t12(): Unit = {
+    assertEquals(
+      List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e),
+      decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+    )
+  }
+
 }

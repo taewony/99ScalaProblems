@@ -23,3 +23,14 @@ test
 compile
 test
 ~test
+console
+test
+console
+run
+test
+exit
+test
+~test
+console
+test
+~test
