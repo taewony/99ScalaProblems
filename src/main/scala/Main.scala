@@ -101,4 +101,16 @@ object Main {
   def decode[T](list: List[(Int, T)]): List[T] = {
     list.flatMap { e => List.fill(e._1)(e._2)}
   }
+
+  // P13 - Run-length encoding of a list.
+  def encodeDirect[T](list: List[T]): List[(Int, T)] = {
+    if (list.isEmpty) List()
+    else {
+      val (packed, next) = list span { _ == list.head }
+      if (next == Nil) List((packed.size, packed.head))
+      else (packed.size, packed.head) :: encode(next)
+    }
+  }
+
+  def numAdd(a: Int, b:Int) : Int = {a+b}
 }

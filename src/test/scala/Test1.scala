@@ -73,4 +73,14 @@ class Test1 {
     )
   }
 
+  @Test def t13(): Unit = {
+    assertEquals(
+      List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e)),
+      encodeDirect(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+    )
+  }
+
+  @Test def t99(): Unit = {
+    assertEquals(2, numAdd(1,1))
+  }
 }
