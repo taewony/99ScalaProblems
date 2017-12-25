@@ -1,1 +1,1 @@
-[0m[[31merror[0m] [0mTest [33mTest1[0m.[31mt99[0m failed: expected:<2> but was:<0>, took 0.002 sec[0m
+[0m[[31merror[0m] [0mTest [33mTest1[0m.[31mt18[0m failed: expected:<List('d, 'e, 'f, 'g)> but was:<List()>, took 0.002 sec[0m

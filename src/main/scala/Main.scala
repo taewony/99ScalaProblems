@@ -4,6 +4,9 @@ object Main {
     println("please run -> sbt test")
   }
 
+  // add two numbers
+  def numAdd(a: Int, b:Int) = a + b
+
   // P00 - insertion sort
   def insertionSort(list: List[Int]): List[Int] = {
     def insert(x: Int, xs: List[Int]): List[Int] = xs match {
@@ -107,10 +110,30 @@ object Main {
     if (list.isEmpty) List()
     else {
       val (packed, next) = list span { _ == list.head }
-      if (next == Nil) List((packed.size, packed.head))
-      else (packed.size, packed.head) :: encode(next)
+      (packed.size, packed.head) :: encodeDirect(next)
     }
   }
 
-  def numAdd(a: Int, b:Int) : Int = {a+b}
+  // P14 - Duplicate the elements of a list.
+  def duplicate[T](list: List[T]): List[T] =
+    list flatMap { e => List(e, e) }
+
+  // P15 - Duplicate the elements of a list a given number of times.
+  def duplicateN[T](n: Int, list: List[T]): List[T] =
+    list flatMap { e => List.fill(n)(e) }
+
+  // P16 - Drop every Nth element from a list.
+  def drop[T](n: Int, list: List[T]): List[T] =
+    list.zipWithIndex filter { v => (v._2 + 1) % n != 0 } map { _._1 }
+
+  // P17 - Split a list into two parts.
+  def split[T](n: Int, list: List[T]): (List[T], List[T]) = {
+    (list.take(n), list.drop(n))
+  }
+
+  // P18 - Extract a slice from a list.
+  def slice[T](n: Int, k: Int, list: List[T]): List[T] = {
+    list.drop(n).take(k-n)
+  }
+
 }

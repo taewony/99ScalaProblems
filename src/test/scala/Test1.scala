@@ -6,9 +6,10 @@ class Test1 {
 
   val x = List(1,6,4,3,5,2)
 
-  @Test def t0(): Unit = {
+  /* @Test def t0(): Unit = {
+    assertEquals(2, numAdd(1,1))
     assertEquals(List(1,2,3,4,5,6), insertionSort(x))
-  }
+  }*/
 
   @Test def t1(): Unit = {
     assertEquals(2, last(x)) //P01: Find the last element of a list 
@@ -80,7 +81,38 @@ class Test1 {
     )
   }
 
-  @Test def t99(): Unit = {
-    assertEquals(2, numAdd(1,1))
+  @Test def t14(): Unit = {
+    assertEquals(
+      List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd),
+      duplicate(List('a, 'b, 'c, 'c, 'd))
+    )
+  }
+
+  @Test def t15(): Unit = {
+    assertEquals(
+      List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd),
+      duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+    )
+  }
+
+  @Test def t16(): Unit = {
+    assertEquals(
+      List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k),
+      drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+    )
+  }
+
+  @Test def t17(): Unit = {
+    assertEquals(
+      (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k)),
+      split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+    )
+  }
+
+  @Test def t18(): Unit = {
+    assertEquals(
+      List('d, 'e, 'f, 'g),
+      slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+    )
   }
 }

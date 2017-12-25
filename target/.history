@@ -34,3 +34,6 @@ test
 console
 test
 ~test
+console
+compile
+~test

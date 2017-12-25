@@ -2,8 +2,6 @@
 
 ### Usage
 
-Whan Babo
-
 This is a normal sbt project, you can compile code with `sbt compile` and test run it
 with `sbt test`. `sbt console` will start a Dotty REPL. 
 
